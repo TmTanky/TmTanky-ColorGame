@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+    
+}
+
+.board, .board2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.colorbox {
+    height: 150px;
+    width: 150px;
+    margin: 1rem;
+    border-radius: 5px;
+    border: solid black 5px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.box1 {
+    background-color: rgb(255, 0, 0);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.box2 {
+    background-color: rgb(0, 0, 255);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.box3 {
+    background-color: rgb(255, 255, 0);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.box4 {
+    background-color: rgb(0, 128, 0);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+
+/* animation */
+
+.colorbox:hover {
+    transform: scale(0.9,0.9);
+} 
+
+/* .box1:hover {
+    background-color: rgba(255, 0, 0,0.4);
+}
+
+.box2:hover {
+    background-color: rgba(0, 0, 255,0.4);
+}
+
+.box3:hover {
+    background-color: rgba(255, 255, 0,0.4);
+}
+
+.box4:hover {
+    background-color: rgba(0, 128, 0,0.4);
+} */
+
+/* msg */
+
+.msg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.msg h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* reset btn */
+
+.btnarea {
+    text-align: center;
+}
+
+.btn {
+    padding: 0.5rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.startBtn {
+    padding: 0.5rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 1rem 0rem;
+}
